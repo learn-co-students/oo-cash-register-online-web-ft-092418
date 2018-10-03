@@ -32,11 +32,3 @@ class CashRegister
         self.total = 0
     end 
 end 
-
-reg = CashRegister.new(20)
-
-reg.add_item("chips", 5)
-
-puts reg.discount
-
-puts reg.total
